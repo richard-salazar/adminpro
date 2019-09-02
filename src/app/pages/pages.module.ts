@@ -7,6 +7,7 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 
 import { PagesRoutingModule } from './pages-routing.module';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
         DashboardComponent,
         ProgressComponent,
         Graficas1Component,
-        AccountSettingsComponent        
+        AccountSettingsComponent,
+        PromesasComponent        
     ],
     exports: [
         DashboardComponent,
